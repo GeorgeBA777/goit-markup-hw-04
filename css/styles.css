@@ -255,10 +255,14 @@ button {
     border-radius: 4px;
     background-color: #f4f4fd;
     margin-bottom: 8px;
+
 }
 
 .benefits-svg {
-    
+    width: 64px;
+    /* Ширина SVG */
+    height: 64px;
+    /* Высота SVG */
 }
 
 .benefits-subtitle {
@@ -277,7 +281,6 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 /* #endregion */
 /* #region SECTION3 TEAM */
 .team {
