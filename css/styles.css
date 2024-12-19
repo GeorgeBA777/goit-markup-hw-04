@@ -329,11 +329,11 @@ button {
     text-align: center;
     margin-bottom: 8px;
 }
-/* SOCIALS ICON */
+
 .card-container-icons {
     display: flex;
     justify-content: center;
-    
+    gap: 24px;
 }
 
 .card-list {
@@ -341,12 +341,12 @@ button {
     display: flex;
     padding: 0;
     margin: 0;
-    gap: 24px;
 }
 
 .card-item {
     display: flex;
 }
+
 .card-link {
     display: flex;
     justify-content: center;
@@ -355,11 +355,17 @@ button {
     height: 40px;
     background-color: #4d5ae5;
     border-radius: 50%;
-    text-decoration
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.card-link:hover,
+.card-link:focus {
+    background-color: #404bbf;
+}
+
 .card-icon {
-    display: block;
-    justify-content: center;
+    width: 16px;
+    height: 16px;
     fill: #fff;
 }
 
