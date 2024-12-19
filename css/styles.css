@@ -257,6 +257,11 @@ button {
     margin-bottom: 8px;
 }
 
+.benefits-svg {
+    width: 64px;
+    height: 64px;
+}
+
 .benefits-subtitle {
     font-weight: 500;
     font-size: 20px;
@@ -433,6 +438,7 @@ button {
 .overlay {
     position: absolute;
     top: 100%;
+    /* Исходное положение */
     left: 0;
     width: 100%;
     height: 100%;
