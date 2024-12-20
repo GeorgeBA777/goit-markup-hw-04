@@ -319,8 +319,7 @@ button {
 .team__img {}
 
 .team__card {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0 32px;
     text-align: center;
     width: 232px;
     margin: auto;
