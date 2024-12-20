@@ -421,8 +421,8 @@ button {
 .portfolio_item:hover .portfolio_description {
     transform: translateY(0%);
 }
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio_item:hover,
+.portfolio_item:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
                 0px 1px 1px rgba(46, 47, 66, 0.16),
                 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -433,14 +433,14 @@ button {
     line-height: 1.5;
     position: absolute;
     letter-spacing: 0.02em;
-    color: #f4f4fd;
     padding: 40px 32px;
-    background-color: #4d5ae5;
     width: 100%;
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0;
+    color: #f4f4fd;
+    background-color: #4d5ae5;
 }
 
 .portfolio_card {
@@ -459,7 +459,7 @@ button {
     color: #2e2f42;
     margin-bottom: 8px;
 }
-.portfolio_description,
+
 .portfolio_category {
     font-weight: 400;
     font-size: 16px;
